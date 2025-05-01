@@ -1,4 +1,4 @@
-# TOT-NAV: Uncertainty-aware, Context-driven Robot Navigation via a Tree of Thoughts
+# TOT-NAV: Uncertainty-aware, Context-driven Robot Navigation with a Tree of Thoughts
 
 ## Overview
 
