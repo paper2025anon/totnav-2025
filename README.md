@@ -40,7 +40,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Edit .env with your API keys for OpenAI
+# Edit/Create .env with your API keys for OpenAI
 ```
 
 ## Usage
