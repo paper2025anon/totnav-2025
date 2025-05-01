@@ -1,0 +1,11 @@
+numpy>=1.21.0
+networkx>=2.7.0
+opencv-python>=4.5.0
+torch>=1.10.0
+clip>=1.0
+pillow>=8.0.0
+openai>=1.0.0
+python-dotenv>=0.20.0
+matplotlib>=3.5.0
+tensorboard>=2.8.0
+tqdm>=4.62.0
