@@ -30,7 +30,7 @@ This approach enables backtracking, re-planning, and uncertainty management with
 
 ```bash
 # Clone the repository
-git clone https://github.com/anonymous/ToT-Nav.git
+git clone https://github.com/paper2025anon/totnav-2025.git
 cd ToT-Nav
 
 # Create a virtual environment (optional)
@@ -68,24 +68,18 @@ print(f"Route: {' → '.join(str(node) for node in route)}")
 ToT-Nav/
 ├── README.md               # Project documentation
 ├── data/                   # Sample navigation environments
-│   ├── graph_large.pkl     # Large navigation graph
-│   └── graph_small.pkl     # Small navigation graph
-├── examples/               # Usage examples
-│   ├── basic_navigation.py # Simple instruction following
-│   └── uncertainty_demo.py # Demonstration of uncertainty resolution
 ├── requirements.txt        # Project dependencies
 ├── scripts/                # Utility scripts
 │   ├── evaluate.py         # Evaluation metrics computation
-│   └── run_ablation.py     # Ablation studies
 └── tot_nav/                # Core package
     ├── __init__.py
     ├── parser.py           # Instruction parsing module
     ├── matching.py         # Landmark matching with CLIP
     ├── turns.py            # Turn analysis and directional constraints
     ├── scoring.py          # Scoring functions and metrics
-    ├── beam_search.py      # Beam search implementation
+    ├── pipeline.py         # Workflow implementation
     ├── llm.py              # LLM integration for evaluation
-    └── tot.py              # Main Tree of Thoughts implementation
+    └── tree_of_thoughts.py # Main Tree of Thoughts implementation
 ```
 
 ## Results
